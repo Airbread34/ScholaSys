@@ -1,0 +1,20 @@
+/* Fix for brand icon size */
+.brand-image {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+/* Ensure sidebar text is visible */
+.nav-sidebar .nav-link p {
+    margin: 0;
+}
+
+/* Fix for chart containers */
+canvas {
+    max-width: 100%;
+}
+
+/* Additional spacing for forms */
+.card-body form .row {
+    margin-bottom: 0;
+}
